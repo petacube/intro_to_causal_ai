@@ -1,0 +1,8 @@
+// Confounding example
+digraph {
+	a
+	b
+	c
+	a -> c [constraint=true]
+	b -> c [constraint=true]
+}

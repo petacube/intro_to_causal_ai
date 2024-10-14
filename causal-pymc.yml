@@ -1,0 +1,21 @@
+name: causal-pymc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numba
+  - pip
+  - nb_conda
+  - arviz
+  - matplotlib
+  - pandas
+  - scipy
+  - numpy
+  - statsmodels
+  - pydot
+  - tqdm
+  - ipywidgets
+  - pip:
+    - pymc>=4
+    - CausalPy
